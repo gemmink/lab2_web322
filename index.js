@@ -8,4 +8,4 @@ app.get('/', (req, res) => {
     res.send(output);
 });
 
-app.listen(port, () => console.log(`Server running on port ${port}`));
+module.exports = app;
